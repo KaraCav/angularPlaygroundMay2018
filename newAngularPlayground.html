@@ -1,0 +1,24 @@
+<!doctype html>
+<html ng-app>
+
+<head>
+    <title>Angular Calculator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+
+</head>
+
+<body>
+
+    <h1>My name is:</h1>
+    <input type="text" ng-model="name" /> {{name}}
+    <div data-ng-init="names=['john','sasha']" />
+    <ul>
+        <li ng-repeat="item in names">{{item | uppercase}}</li>
+    </ul>
+    <h3>My number check:</h3>
+    {{4+3}}
+
+
+</body>
+
+</html>
